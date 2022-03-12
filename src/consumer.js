@@ -12,8 +12,8 @@ const kafka = require('kafka-node'),
     );
 
 
-consumer.on('message', (message) => {
-    console.log('Received message: ', message);
+consumer.on('message', (data) => {
+    console.log('Received message: ', data.value);
 });
 
 consumer.on('error', (error) => {
