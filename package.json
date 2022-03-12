@@ -1,0 +1,14 @@
+{
+  "name": "kafka_js",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Kafka test by using JavaScript",
+  "scripts": {
+    "start:producer": "node src/producer.js",
+    "start:consumer": "node src/consumer.js"
+  },
+  "author": "smartworld-dm",
+  "dependencies": {
+    "kafka-node": "^5.0.0"
+  }
+}
