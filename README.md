@@ -23,3 +23,8 @@ In kafka root folder:
 
 * Run producer
 ```npm run start:producer```
+
+* Run Zookeeper and Kafka on docker
+stop above local Zookeeper and Kafka
+```docker-compose up -d```
+Then you can use service running in docker
